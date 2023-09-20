@@ -3,7 +3,7 @@ import {AiFillHeart, AiOutlineHeart} from 'react-icons/ai';
 
 import Modal from './Modal';
 import ModalItem from './ModalItem';
-import { useLocalStorage, } from "components/Localstorage";
+// import { useLocalStorage, } from "components/Localstorage";
 
 import {
     CarCardMain, CarCardImg, CarCardButton, CarCarText, CarCarHeader,
