@@ -6,11 +6,10 @@ import ModalItem from './ModalItem';
 
 import {
     CarCardMain, CarCardImg, CarCardButton, CarCarText, CarCarHeader,
-    CarPrice, CarModel, CarDeatails, CarFlash, CarBr
+    CarPrice, CarModel, CarDeatails, CarFlash, CarBr, CarFavorite
 } from "./Styled/Card.styled";
 
-import {
-    CarFavorite} from './Styled/Card.styled'; 
+    
 export const CarCard = ({ id, year, img, make, model, type, rentalPrice,
     address, rentalCompany, accessories, functionalities, fuelConsumption,
     engineSize, mileage, description, rentalConditions }) => {

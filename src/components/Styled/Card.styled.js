@@ -20,6 +20,10 @@ color:
 ${p => {
         return (p.isFavorite) ? '#3470FF' : 'rgba(235,235, 235, 1)';
 }};
+&:hover,
+  &:focus {
+    cursor: pointer;
+  }
 `;
 
 export const CarCardImg = styled.img`
