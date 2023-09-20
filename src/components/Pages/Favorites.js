@@ -66,7 +66,7 @@ const Favorites = () => {
 
   return (
     < CatalogueMain> 
-      <CatalogueHeader>Find a car for rent</CatalogueHeader>
+      <CatalogueHeader>Your favorit car for rent</CatalogueHeader>
       <CatalogueCards>
               {users.map(({ id, year, make, model, type, img, rentalPrice,
           address, rentalCompany, accessories, functionalities,
