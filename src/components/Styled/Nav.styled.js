@@ -16,9 +16,8 @@ export const StyledLink = styled(NavLink)`
 export const FixeNavBar = styled.nav`
   display: flex;
 position: absolute;
-//   padding-left: 150px;
-// padding-right: 300px;
 max-width: 1280px;
+margin-top: -10px;
 margin-right: auto;
 margin-left: auto;
 
