@@ -16,6 +16,8 @@ export const Overlay = styled.div`
 `;
 
 export const Mod = styled.div`
+
+flex-direction: column;
 width: 541px;
 height: 702px;
 color:black;
@@ -28,7 +30,8 @@ export const ModImg = styled.img`
 width: 461px;
 height: 248px;
 border-radius: 15px;
-margin-top: 40px;
+
+margin-top: 10px;
 display: flex;
 justify-content: center;
 margin-left: auto;
@@ -191,8 +194,20 @@ background-color:rgba(52, 112, 255, 1);
 
 
 export const CarCrusaider = styled.button`
+ border: none;
+  outline: none;
+  z-index: 10000;
+color:black;
+&:hover,
+  &:focus {
+    cursor: pointer;
+  }
+`;
+
+
+export const CrusaiderSvg = styled.button`
 position: absolute;
-margin-top: -24px;
+margin-top: 0px;
 margin-left: 500px;
   border: medium none;
 background-image: none; 

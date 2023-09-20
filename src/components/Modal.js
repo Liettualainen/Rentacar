@@ -1,8 +1,8 @@
 import React, {  useEffect } from 'react';
 import { createPortal } from 'react-dom';
-
+import {CgClose} from 'react-icons/cg';
 import {
-    Overlay, Mod} from './Styled/Modal.styled'; 
+    Overlay, Mod, CarCrusaider, CrusaiderSvg} from './Styled/Modal.styled'; 
 
 const modalRoot = document.querySelector('#modal-root');
 
@@ -29,7 +29,11 @@ export const Modal = ({ children, onClose }) => {
     return createPortal(
   
             <Overlay onClick={handleBackDrop}>
-                 <Mod>
+        <Mod>
+          <CarCrusaider onClick={onClose}>
+            <CrusaiderSvg> <CgClose size="12px" /></CrusaiderSvg>
+              
+                </CarCrusaider>
                      {children}
                 </Mod>
              </Overlay>, modalRoot
@@ -38,4 +42,5 @@ export const Modal = ({ children, onClose }) => {
 
 
 export default Modal;
+
 
