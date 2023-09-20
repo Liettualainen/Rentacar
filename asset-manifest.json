@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.js": "/Rentacar/static/js/main.d9368ab5.js",
+    "main.js": "/Rentacar/static/js/main.cf872a5c.js",
     "static/js/509.865a163f.chunk.js": "/Rentacar/static/js/509.865a163f.chunk.js",
-    "static/js/354.64cb887b.chunk.js": "/Rentacar/static/js/354.64cb887b.chunk.js",
-    "static/js/81.4a089b0c.chunk.js": "/Rentacar/static/js/81.4a089b0c.chunk.js",
+    "static/js/354.1a6b1a6c.chunk.js": "/Rentacar/static/js/354.1a6b1a6c.chunk.js",
+    "static/js/81.5a2baacb.chunk.js": "/Rentacar/static/js/81.5a2baacb.chunk.js",
     "static/js/930.0483e36e.chunk.js": "/Rentacar/static/js/930.0483e36e.chunk.js",
     "static/js/800.58d468ec.chunk.js": "/Rentacar/static/js/800.58d468ec.chunk.js",
     "static/media/getstarted.png": "/Rentacar/static/media/getstarted.29479061c2ad04970cf5.png",
     "static/media/car.png": "/Rentacar/static/media/car.299ed0531edd61c9f43b.png",
     "static/media/logonew.jpg": "/Rentacar/static/media/logonew.4781d938ccdd5c699b36.jpg",
     "index.html": "/Rentacar/index.html",
-    "main.d9368ab5.js.map": "/Rentacar/static/js/main.d9368ab5.js.map",
+    "main.cf872a5c.js.map": "/Rentacar/static/js/main.cf872a5c.js.map",
     "509.865a163f.chunk.js.map": "/Rentacar/static/js/509.865a163f.chunk.js.map",
-    "354.64cb887b.chunk.js.map": "/Rentacar/static/js/354.64cb887b.chunk.js.map",
-    "81.4a089b0c.chunk.js.map": "/Rentacar/static/js/81.4a089b0c.chunk.js.map",
+    "354.1a6b1a6c.chunk.js.map": "/Rentacar/static/js/354.1a6b1a6c.chunk.js.map",
+    "81.5a2baacb.chunk.js.map": "/Rentacar/static/js/81.5a2baacb.chunk.js.map",
     "930.0483e36e.chunk.js.map": "/Rentacar/static/js/930.0483e36e.chunk.js.map",
     "800.58d468ec.chunk.js.map": "/Rentacar/static/js/800.58d468ec.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.d9368ab5.js"
+    "static/js/main.cf872a5c.js"
   ]
 }
