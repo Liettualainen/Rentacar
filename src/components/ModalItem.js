@@ -1,11 +1,10 @@
 
 import { React } from "react";
 import { Link } from "react-router-dom";
-// import {CgClose} from 'react-icons/cg';
 import {
   Mod, ModImg, CarCardButton, CarCarHeader,
   CarPrice, CarModel, CarDeatails, CarFlash, CarBr, CarDescr, CarAcces, RentCond, RentCondBlock, CarCondBr,
-  RentCondBlockColor, CarCrusaider
+  RentCondBlockColor
 } from './Styled/Modal.styled'; 
 
 
@@ -19,9 +18,6 @@ const ModalItem = ({ id, year, img, make, model, type, rentalPrice,
   return (
         
        <Mod >     
-           {/* <CarCrusaider >
-               <CgClose size="12px" />
-                </CarCrusaider> */}
          {<ModImg src={img} alt="Car" width={420} />}
              <ul>
         <CarCarHeader>
