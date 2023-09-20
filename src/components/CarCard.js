@@ -3,7 +3,6 @@ import {AiFillHeart, AiOutlineHeart} from 'react-icons/ai';
 
 import Modal from './Modal';
 import ModalItem from './ModalItem';
-// import { useLocalStorage, } from "components/Localstorage";
 
 import {
     CarCardMain, CarCardImg, CarCardButton, CarCarText, CarCarHeader,
@@ -26,7 +25,6 @@ export const CarCard = ({ id, year, img, make, model, type, rentalPrice,
       setFavorite(!favorite);    
        localStorage.setItem(id, !favorite );
       console.log( !favorite, id); 
-      //    console.log('id', id);
     };
 
     return (

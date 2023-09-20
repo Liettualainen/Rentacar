@@ -4,7 +4,6 @@ import { createPortal } from 'react-dom';
 import {
     Overlay, Mod} from './Styled/Modal.styled'; 
 
-// public file indexedDB.html <div id="modal-root"></div>
 const modalRoot = document.querySelector('#modal-root');
 
 export const Modal = ({ children, onClose }) => {
@@ -39,5 +38,4 @@ export const Modal = ({ children, onClose }) => {
 
 
 export default Modal;
-
 

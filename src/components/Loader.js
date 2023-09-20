@@ -1,8 +1,4 @@
-// import React, { Component } from 'react';
 import { Bars } from 'react-loader-spinner';
-
-// export default class Loader extends Component {
-//     render() {
 
 export const Loader = ({ isVisible}) => {
         return (

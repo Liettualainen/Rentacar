@@ -11,11 +11,8 @@ import {
 
 
 const ModalItem = ({ id, year, img, make, model, type, rentalPrice,
-  address, rentalCompany, accessories, functionalities, fuelConsumption, engineSize,
+  address, accessories, functionalities, fuelConsumption, engineSize,
   description, rentalConditions, mileage }) => {
-
-  
-const phoneNumber = "tel:+380730000000";
 
   
   
@@ -90,7 +87,7 @@ const phoneNumber = "tel:+380730000000";
              </CarBr>
         </RentCond>
 
-          <Link to={phoneNumber}>
+          <Link to="tel:+380730000000">
                       <CarCardButton>Rental car</CarCardButton>
               </Link>
   
@@ -100,17 +97,3 @@ const phoneNumber = "tel:+380730000000";
 }
 
 export default ModalItem;
-
-
-
-       
-    //    <div data-id={id}>
-
-    //        <img src={img}   alt="Car" width={420} /> 
-           
-    //         {make} {model}, {year}     {rentalPrice}<br />
-    //        {address.slice(20, 24)} {address.slice(26, 33)} {rentalCompany}<br />
-    //        {type} {id} {functionalities[0]}<br/>
-
-    //          price: {Intl.NumberFormat().format(4500)}<br />
-    //          </div>

@@ -17,7 +17,7 @@ export const Overlay = styled.div`
 
 export const Mod = styled.div`
 width: 541px;
-height: 752px;
+height: 702px;
 color:black;
 background-color: white;
 border-radius: 15px;

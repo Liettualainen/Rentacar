@@ -1,5 +1,3 @@
-// import { React } from "react";
-
 import {
    CatalogueMain,CatalogueCards, CatalogueLoader, CatalogueHeader
 } from "../Styled/Catalogue.styled";
@@ -45,7 +43,6 @@ const Catalogue = () => {
           const response = await getUsers(page);
           const usersData = await response.json();
           setUsers(prev => [...prev, ...usersData]);     
-            // setUsers([...usersData]); 
       } catch (err) {
             console.log(err.message);
         }

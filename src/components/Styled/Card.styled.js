@@ -4,9 +4,7 @@ import styled from "styled-components";
 export const CarCardMain = styled.div`
 width: 274px;
 height: 426px;
-// margin-left: 29px;
 margin-bottom: 21px;
-// border: solid 1px black;
 `;
 
 export const CarFavorite = styled.button`
@@ -48,7 +46,6 @@ margin-bottom: 8px;
 display: flex;
 flex-direction: row;
 justify-content: space-between;
-
 font-family: "manrope";
 font-size: 16px;
 font-weight: 500;#121417
@@ -69,9 +66,7 @@ font-family: "inter";
 font-size: 16px;
 font-weight: 500;
 color: #3470FF;
-// border-right: 1px solid #121417;
 `;
-
 
 
 export const CarDeatails = styled.span`
@@ -80,8 +75,6 @@ font-family: "manrope";
 font-size: 12px;
 font-weight: 400;
 color: rgba(18, 20, 23, 0.5);
-// opacity: 50%;
-// border-right: 1px solid #121417;
 `;
 
 export const CarFlash = styled.span`

@@ -5,7 +5,6 @@ import {ButtonLoad} from './Styled/ButtonLoad.styled'
 
 
 function ButtonLoadMore({ onClick, disabled }) {
-  //const hidden = { display: disabled ? "none" : "inherited" };
   return (
     <ButtonLoad type="button" onClick={onClick}
        style={{ display: disabled ? "none" : "inherited" }}>

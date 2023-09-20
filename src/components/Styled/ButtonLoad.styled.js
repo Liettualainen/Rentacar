@@ -23,7 +23,6 @@ color: #3470FF;
 background-color: white;
 &:hover,
   &:focus {
-    // background-color: rgb(222,212,247);
    color: #0B44CD;
     cursor: pointer;
   }

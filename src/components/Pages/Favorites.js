@@ -1,5 +1,3 @@
-// import { React } from "react";
-
 import {
    CatalogueMain,CatalogueCards, CatalogueLoader, CatalogueHeader
 } from "../Styled/Catalogue.styled";
@@ -70,11 +68,13 @@ const Favorites = () => {
     < CatalogueMain> 
       <CatalogueHeader>Find a car for rent</CatalogueHeader>
       <CatalogueCards>
-        {users.map(({ id, year, make, model, type, img, rentalPrice,
-           address, rentalCompany, accessories }) => {
+              {users.map(({ id, year, make, model, type, img, rentalPrice,
+          address, rentalCompany, accessories, functionalities,
+          fuelConsumption, engineSize, description,
+          rentalConditions, mileage }) => {
             return (
                 <CarCard
-                    key={id}
+       key={id}
                     data-id={id}
                     year={year}
                     make={make}
@@ -85,7 +85,13 @@ const Favorites = () => {
                 rentalCompany={rentalCompany}
                 id={id}
                 accessories={accessories}
-                    img={img}
+                functionalities={functionalities}
+                img={img}
+                fuelConsumption={fuelConsumption}
+                engineSize={engineSize}
+                description={description}
+                rentalConditions={rentalConditions}
+                mileage={mileage}
               />
           )
         })}
