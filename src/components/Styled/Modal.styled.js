@@ -17,17 +17,20 @@ export const Overlay = styled.div`
 
 export const Mod = styled.div`
 width: 541px;
-height: 730px;
+height: 752px;
 color:black;
 background-color: white;
 border-radius: 15px;
 `;
 
 export const ModImg = styled.img`
+
 width: 461px;
 height: 248px;
 border-radius: 15px;
 margin-top: 40px;
+display: flex;
+justify-content: center;
 margin-left: auto;
 margin-right: auto;
  overflow: hidden;
@@ -188,8 +191,8 @@ background-color:rgba(52, 112, 255, 1);
 
 
 export const CarCrusaider = styled.button`
-position: relative;
-margin-top: 22px;
+position: absolute;
+margin-top: -24px;
 margin-left: 500px;
   border: medium none;
 background-image: none; 

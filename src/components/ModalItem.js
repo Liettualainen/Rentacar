@@ -1,9 +1,9 @@
-import { useState } from 'react';
+
 import { React } from "react";
 import { Link } from "react-router-dom";
 import {CgClose} from 'react-icons/cg';
 import {
-  Mod, ModImg, CarCardMain, CarCardImg, CarCardButton, CarCarText, CarCarHeader,
+  Mod, ModImg, CarCardButton, CarCarHeader,
   CarPrice, CarModel, CarDeatails, CarFlash, CarBr, CarDescr, CarAcces, RentCond, RentCondBlock, CarCondBr,
   RentCondBlockColor, CarCrusaider
 } from './Styled/Modal.styled'; 
